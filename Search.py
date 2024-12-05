@@ -1,15 +1,15 @@
 def In(x, list):
     for i in list:
         if i == x:
-            return True
-    return False
+            return True 
+    return False 
 
-def seqSearch(x, list, pos=0):
+def seqSearch(x, list, pos=0): 
     while pos < len(list):
         if list[pos] == x:
             return pos
         pos += 1
-    return -1
+    return -1 
 
 def halfSearch(x, list, min=0):
     max = len(list)
